@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsVueify</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <%= yield %>
+
+    <%= javascript_include_tag 'application' %>
+  </body>
+</html>
