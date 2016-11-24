@@ -1,24 +1,12 @@
-# README
+# rails-vueify
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A simple Rails 5 + Browserify + Vue.js setup.
 
-Things you may want to cover:
+`rails-vueify` integrates [Vue Components](https://vuejs.org/v2/guide/single-file-components.html) into Rails assets pipeline. `rails-vueify` depends on `browserify-rails` and npm package `vueify` to achieve that.
 
-* Ruby version
 
-* System dependencies
+## ToDo
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [ ] Lint JavaScript and `.vue` files
+- [ ] Unit tests in PhantomJS
+- [ ] Support hot-reload
